@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build Step
-        run: echo "Radhe Radhe, ${{ vars.MY_NAME}}"
+        run: echo "Radhe Radhe, ${{ secrets.DOCKER_PASSWORD}}"
 
